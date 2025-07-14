@@ -4,7 +4,19 @@
 
 This is a **Task Management System** developed using **PHP**, **MySQL**, **CSS** and **HTML**. It allows admins to create, assign, and manage tasks, while users can view and update their task statuses. Email notifications are sent using **PHPMailer** when tasks are assigned.
 
+## Login Credentials
 
+**Admin**
+
+   - Username / Email: sykig04@gmail.com
+
+   - Password: 12345678
+
+**Users**
+
+   - Admin can create new users manually via the Add User panel.
+
+   - Each user has a unique name, email, and role set during creation.
 
 ## Project Structure
 ```
