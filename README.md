@@ -4,10 +4,11 @@
 
 This is a **Task Management System** developed using **PHP**, **MySQL**, **CSS** and **HTML**. It allows admins to create, assign, and manage tasks, while users can view and update their task statuses. Email notifications are sent using **PHPMailer** when tasks are assigned.
 
----
+```
 
 ## Project Structure
 
+/task-manager/
 /task-manager/
 │
 ├── config/
@@ -37,7 +38,7 @@ This is a **Task Management System** developed using **PHP**, **MySQL**, **CSS**
 ├── sql/
 │   └── task_manager.sql     # MySQL dump file
 
----
+```
 
 ##  Features
 
