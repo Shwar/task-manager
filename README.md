@@ -11,31 +11,31 @@ This is a **Task Management System** developed using **PHP**, **MySQL**, **CSS**
 /task-manager/
 │
 ├── config/
-│ └── db.php  - DB connection setup
+│   └── db.php               # DB connection setup
 │
 ├── admin/
-│ ├── dashboard.php  -admin control panel
-│ ├── add_user.php  -Create user
-│ ├── edit_user.php  - Edit user info
-│ ├── delete_user.php  - Delete user
-│ ├── assign_task.php  - Assign new tasks
-│ ├── tasks.php  - Admin view: All tasks
+│   ├── dashboard.php        # Admin control panel
+│   ├── add_user.php         # Create user
+│   ├── edit_user.php        # Edit user info
+│   ├── delete_user.php      # Delete user
+│   ├── assign_task.php      # Assign new tasks
+│   ├── tasks.php            # Admin view: All tasks
 │
 ├── user/
-│ ├── dashboard.php - User's task dashboard
+│   └── dashboard.php        # User's task dashboard
 │
 ├── includes/
-│ ├── functions.php  - Input sanitization, helper code
-│ ├── auth.php  - session auth check
-│ └── mail.php - PHPMailer integration
+│   ├── functions.php        # Input sanitization, helper code
+│   ├── auth.php             # Session auth check
+│   └── mail.php             # PHPMailer integration
 │
-├── style.css - Global styling
+├── style.css                # Global styling
+├── login.php                # Login page
+├── logout.php               # Logout script
+├── index.php                # Welcome page
 │
-├── login.php - Login page
-├── logout.php - Logout script
-├── index.php  - Welcome page
 ├── sql/
-│ └── task_manager.sql - MySQL dump file
+│   └── task_manager.sql     # MySQL dump file
 
 ---
 
