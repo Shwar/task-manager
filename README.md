@@ -2,7 +2,7 @@
 
 ## Overview
 
-This is a **Task Management System** developed using ** PHP**, **MySQL**, **CSS** and **HTML**. It allows admins to create, assign, and manage tasks, while users can view and update their task statuses. Email notifications are sent using **PHPMailer** when tasks are assigned.
+This is a **Task Management System** developed using **PHP**, **MySQL**, **CSS** and **HTML**. It allows admins to create, assign, and manage tasks, while users can view and update their task statuses. Email notifications are sent using **PHPMailer** when tasks are assigned.
 
 ---
 
@@ -60,7 +60,7 @@ This is a **Task Management System** developed using ** PHP**, **MySQL**, **CSS*
 
 ---
 
-## 📨 Email Notifications with PHPMailer
+## Email Notifications with PHPMailer
 
 I used **PHPMailer** to send task assignment notifications. 
 ### Setup PHPMailer
