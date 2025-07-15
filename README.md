@@ -51,6 +51,11 @@ This is a **Task Management System** developed using **PHP**, **MySQL**, **CSS**
 │   └── task_manager.sql     # MySQL dump file
 
 ```
+# dependencies.txt
+
+- PHP 7.4 or higher
+- MySQL 5.7 or higher
+- PHPMailer (https://github.com/PHPMailer/PHPMailer)
 
 ##  Features
 
@@ -81,10 +86,9 @@ I used **PHPMailer** to send task assignment notifications.
 1. Download PHPMailer:  
    [https://github.com/PHPMailer/PHPMailer](https://github.com/PHPMailer/PHPMailer)
 
-2. Place the following files inside `/includes/phpmailer/`:
-   - `PHPMailer.php`
-   - `SMTP.php`
-   - `Exception.php`
+2. Extract and place the `src/` folder inside `/includes/` or `/vendor/` folder in your project.
+   Include it in `mail.php` like:
+
 
 3. Update `includes/mail.php` like this:
 
@@ -117,24 +121,19 @@ function sendTaskEmail($to, $subject, $body) {
         error_log("Message could not be sent. Mailer Error: {$mail->ErrorInfo}");
     }
 }
+```
 
-Reference: PHPMailer Documentation
-Database Setup
+## Database Setup
 
-Import the provided SQL dump sql/task_manager.sql into your MySQL database.
-Main Tables:
+Import the provided SQL dump sql/task_manager.sql for both tasks and users into your MySQL database.
 
-    users(id, name, email, username, password, role)
+**Main Tables:**
 
-    tasks(id, user_id, title, description, deadline, status)
+   - users(id, name, email, username, password, role)
 
-
- Support & Credits
-
-If you wish to improve this project with features like password hashing, admin dashboard charts, or user file attachments, feel free to explore:
-
-    PHP.net
-
-    PHPMailer GitHub
-
-    InfinityFree Knowledgebase
+ - tasks(id, user_id, title, description, deadline, status)
+   
+**Reference:** 
+- PHPMailer Documentation
+   
+   
