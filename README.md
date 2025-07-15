@@ -77,6 +77,27 @@ This is a **Task Management System** developed using **PHP**, **MySQL**, **CSS**
 - Input validation and session control
 
 ---
+## Screenshots
+
+###  Login Page
+![Login Page](screenshots/login.JPG)
+
+### Admin Dashboard
+![Admin Dashboard](screenshots/admin-dashboard.JPG)
+
+### Assign Task Interface
+![Assign Task](screenshots/assign-task.JPG)
+
+### Assigned Task notification alert
+![Assign Task](screenshots/assigned-task.JPG)
+
+
+###  User Task View
+![User Dashboard](screenshots/user-dashboard.JPG)
+
+###  User Email notification View
+![User Dashboard](screenshots/Email-notification.jpg)
+
 
 ## Email Notifications with PHPMailer
 
