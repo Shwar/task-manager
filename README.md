@@ -51,7 +51,7 @@ This is a **Task Management System** developed using **PHP**, **MySQL**, **CSS**
 │   └── task_manager.sql     # MySQL dump file
 
 ```
-# dependencies.txt
+# Dependencies
 
 - PHP 7.4 or higher
 - MySQL 5.7 or higher
